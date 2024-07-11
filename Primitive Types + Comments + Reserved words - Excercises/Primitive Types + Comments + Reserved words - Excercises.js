@@ -44,3 +44,11 @@ let Boolean= true
 let Symbol= ("fifi")
 let Undefined = "Soy algo no definido"
 let object = ["soy un objeto"]
+
+console.log (numero + ": " + typeof (numero), 
+             Bigint + ": " + typeof (Bigint),
+             String + ": " + typeof (String),
+             Boolean + ": " + typeof (Boolean),
+             Symbol + ": " + typeof (Symbol),
+             Undefined + ": " + typeof (Undefined),
+             Object + ": " + typeof [Object])
