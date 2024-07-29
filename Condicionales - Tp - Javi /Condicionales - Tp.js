@@ -2,62 +2,62 @@
 
 1. Crea un bloque de código que compare dos variables numéricas. Si el número A es mayor que el número B, imprimir en consola ‘El número A es mayor a B‘.*/
 
-let Number1 = 15
-let Number2 = 10        
+let number1 = 15
+let number2 = 10        
 
-if(Number1 > Number2) {
-    console.log("El número A es mayor a B.")
+if(number1 > number2) {
+    console.log("El número 1 es mayor al 2.")
 }
 
 /*2. Crea un bloque de código que tome la edad de un usuario y la compare con un número de referencia. Si la edad es mayor al número de referencia, imprimir en consola un mensaje.*/
 
-let AgeUser = 22
-let MajorityAgeArgentina= 18
+let ageUser = 22
+let majorityAgeArgentina= 18
 
-if(AgeUser > MajorityAgeArgentina) {
+if(ageUser > majorityAgeArgentina) {
     console.log("El usuario es mayor de edad.")
 }
 
 /*3. Crea un bloque de código que compare dos números e imprima en consola un valor booleano.*/
 
-let AgeRaul = 21
-let AgeMengano = 21
+let ageRaul = 21
+let ageMengano = 21
 
-if(AgeRaul == AgeMengano) {
+if(ageRaul === ageMengano) { // ===
     console.log(true)
 }
 
 /*4. Crea un bloque de código que compare dos nombres, y si ambos son iguales imprima en consola el nombre.*/
 
-let Name1 = "Anais"
-let Name2 = "Anais"
+let name1 = "Anais"
+let name2 = "Anais"
 
-if(Name1 == Name2) {
+if(name1 === name2) { // ===
     console.log("Las dos se llaman Anais.")
 }
 
 /*5. Crea un bloque de código que compare dos nombres, y si ambos son diferentes imprima en consola un mensaje.*/
 
-let Food1 = "Choripan"
-let Food2 = "Morzilla "
+let food1 = "Choripan"
+let food2 = "Morzilla "
 
-if(Food1 != Food2) {
+if(food1 != food2) { // !==
     console.log("Una comida es morzilla la otra choripan.")
 }
 
 /*6. Crea un bloque de código que imprima en consola un número en caso de que sea un número negativo.*/
 
-let NegativeNumber = -10
+let numberToEvaluate = -10
 
-if (NegativeNumber < 0){
+if (numberToEvaluate < 0){
     console.log ("Es un numero negativo de 10.")
 }
 
 /*7. Crea un bloque de código que imprima en consola un número en caso de que NO sea un número negativo.*/
 
-let PositiveNumber = 10
+let numberToEvaluate2 = 10
 
-if (PositiveNumber > 0) {
+if (numberToEvaluate2 > 0) {
     console.log ("Es un numero positivo, es 10")
 }
 
@@ -65,26 +65,28 @@ if (PositiveNumber > 0) {
 
 8. Crea un bloque de código que compare dos números. Si el número es par, imprimir en consola ‘El número es par’. De lo contrario, imprimir ‘El número es impar’.*/
 
-let OddNumber = 7
+let numberToEvaluate3 = 7
 
-if (OddNumber % 2 == 0) {
+if (numberToEvaluate3 % 2 == 0) {
     console.log("El numero es par.")
 }
-else {console.log("El numero es impar.")}
+else {
+    console.log("El numero es impar.")
+}
 
 /*9. Crea un bloque de código que compare dos números y luego imprima en consola si es positivo o negativo.*/
 
-let NumberComparison1 = 1
-let NumberComparison2 = 0
+let numberComparison1 = 1
+let numberComparison2 = 0
 
-if (NumberComparison1 < NumberComparison2) {
+if (numberComparison1 < numberComparison2) {
     console.log("El numero es negativo.")
 }
 else {console.log("El numero es positivo.")}
 
 /*10. Crea una función que tome de referencia una variable string cuyo valor sea una letra, y luego imprima en consola si es una vocal o una consonante.*/    /*&& y - || o*/
 
-let Letter = "E"
+let letter = "E"
 
 /*if (Letra == "A") {
     console.log ("La letra es una vocal.")
@@ -103,134 +105,146 @@ else if (Letra == "U") {
 }
 else {console.log ("La letra es una consonante.")}*/
 
-if (Letter == "A" || Letter == "E" || Letter == "I" || Letter == "O" || Letter == "U"){
+if (letter == "A" || letter == "E" || letter == "I" || letter == "O" || letter == "U"){
     console.log ("La letra es una vocal.")
 }
-else {console.log ("La letra es una consonante.")}
+else {
+    console.log ("La letra es una consonante.")
+}
 
 /*11. Crea un bloque de código que tome de referencia un nombre. Si el nombre ingresado es ‘Pedro’ imprimir en consola ‘Hola Pedro, como estás?’. De lo contrario, imprimir ‘Hola! Cómo te llamas?’.*/
 
-let NamePedro = "Pedro"
+let namePedro = "Pedro"
 
-if (NamePedro == "Luis") {
+if (namePedro === "Pedro") {
     console.log("Hola Pedro, como estas?")
 }
-else {console.log ("Hola! Como te llamas?")}
+else {
+    console.log ("Hola! Como te llamas?")
+}
 
 /*12. Crea un bloque de código que tome de referencia la nota de un examen y devuelva ‘Estás aprobado’ si la nota es mayor o igual a 7, o ‘Estás desaprobado’ si la nota es menor a 7.*/
 
-let ExamNote = 6
+let examNote = 6
 
-if (ExamNote >= 7){
+if (examNote >= 7){
     console.log("Estas aprobado.")
 }
-else {console.log ("Estas desaprobado.")}
+else {
+    console.log ("Estas desaprobado.")
+}
 
 /*13. Crea un bloque de código que tome de referencia un número e imprima en pantalla si el número es menor a 10, mayor a 50, o si está entre esos dos valores.*/
 
-let ReferenceNumber = 25
+let referenceNumber = 25
 
-if (ReferenceNumber < 10){
+if (referenceNumber < 10){
     console.log("El numero es menor a 10.")
 }
-else if (ReferenceNumber > 50) {
+else if (referenceNumber > 50) {
     console.log("El numero es mayor a 50.")
 }
- else {console.log("El numero vale entre 10 a 50")}
+ else {
+    console.log("El numero vale entre 10 a 50")
+}
 
  /*14. Crea un bloque de código que compare dos números. Si ambos números son menores a 10, imprimir en consola el múltiplo. Si ambos números son mayores a 50,  imprimir en consola su suma. Sino, imprimir en consola el primer número menos el segundo.*/
 
- let NumberComparison3 = 67
- let NumberComparison4 = 25
+ let numberComparison3 = 67
+ let numberComparison4 = 25
 
- if(NumberComparison3<10 && NumberComparison4<10){
-    console.log ("El multiplo es " + (NumberComparison3*NumberComparison4) + ".")
- }else if (NumberComparison3>50 && NumberComparison4>50){
-    console.log ("La suma da " + (NumberComparison3+NumberComparison4) + ".")
+ if(numberComparison3<10 && numberComparison4<10){
+    console.log ("El multiplo es " + (numberComparison3*numberComparison4) + ".")
+ }else if (numberComparison3>50 && numberComparison4>50){
+    console.log ("La suma da " + (numberComparison3+numberComparison4) + ".")
  }
- else {console.log ("La resta da " + (NumberComparison3-NumberComparison4) + ".")}
+ else {
+    console.log ("La resta da " + (numberComparison3-numberComparison4) + ".")
+}
 
  /*15. Crea un bloque de código que tome de referencia un número del 1 al 7 y devuelva el día de la semana correspondiente. 
 Por ejemplo: 1 = ‘lunes’.*/
 
-let Day = 4
+let day = 4
 
-if(Day == 1) {
+if(day == 1) {
     console.log("El dia es lunes")
 }
-else if (Day == 2) {
+else if (day == 2) {
     console.log("El dia es martes.")
 }
-else if (Day == 3) {
+else if (day == 3) {
     console.log("El dia es miercoles.")
 }
-else if (Day == 4) {
+else if (day == 4) {
     console.log("El dia es jueves.")
 }
-else if (Day == 5) {
+else if (day == 5) {
     console.log("El dia es viernes.")
 }
-else if (Day == 6) {
+else if (day == 6) {
     console.log("El dia es sabado.")
 }
-else if (Day == 7) {
+else if (day == 7) {
     console.log("El dia es domingo.")
 }
 
 /*16. Crea un bloque de código que reciba un número e imprima en pantalla si es divisible por 2, 3, o ninguno.*/
 
-let NumberDivision = 7
+let numberDivision = 7
 
-if(NumberDivision % 2 == 0 && NumberDivision % 2 == 0){
+if(numberDivision % 2 == 0 && NumberDivision % 2 == 0){
     console.log("El numero es divisible por 2 y 3.")
 }
-else if(NumberDivision % 2 == 0){
+else if(numberDivision % 2 == 0){
     console.log("El numero es divisible por 2.")
 }
-else if(NumberDivision % 3 == 0){
+else if(numberDivision % 3 == 0){
     console.log("El numero es divisible por 3.")
 
 }
-else {console.log ("No es divisible ni por 2 ni por 3.")}
+else {
+    onsole.log ("No es divisible ni por 2 ni por 3.")
+}
 
 /*17. Crea un bloque de código que tome de referencia un número del 1 al 12 y devuelva el mes correspondiente. Por ejemplo: 1 = ‘Enero’.*/
 
-let NumberOfTheMonth = 9
+let numberOfTheMonth = 9
 
-if(NumberOfTheMonth == 1) {
+if(numberOfTheMonth == 1) {
     console.log("El mes es Enero")
 }
-else if (NumberOfTheMonth == 2) {
+else if (numberOfTheMonth == 2) {
     console.log("El mes es Febrero.")
 }
-else if (NumberOfTheMonth == 3) {
+else if (numberOfTheMonth == 3) {
     console.log("El mes es Marzo.")
 }
-else if (NumberOfTheMonth == 4) {
+else if (numberOfTheMonth == 4) {
     console.log("El mes es Abril.")
 }
-else if (NumberOfTheMonth == 5) {
+else if (numberOfTheMonth == 5) {
     console.log("El mes es Mayo.")
 }
-else if (NumberOfTheMonth == 6) {
+else if (numberOfTheMonth == 6) {
     console.log("El mes es Junio.")
 }
-else if(NumberOfTheMonth == 7) {
+else if(numberOfTheMonth == 7) {
     console.log("El mes es Julio")
 }
-else if (NumberOfTheMonth == 8) {
+else if (numberOfTheMonth == 8) {
     console.log("El mes es Agosto.")
 }
-else if (NumberOfTheMonth == 9) {
+else if (numberOfTheMonth == 9) {
     console.log("El mes es Septiembre.")
 }
-else if (NumberOfTheMonth == 10) {
+else if (numberOfTheMonth == 10) {
     console.log("El mes es Octubre.")
 }
-else if (NumberOfTheMonth == 11) {
+else if (numberOfTheMonth == 11) {
     console.log("El mes es Noviembre.")
 }
-else if (NumberOfTheMonth == 12) {
+else if (numberOfTheMonth == 12) {
     console.log("El mes es Diciembre.")
 }
 
@@ -238,9 +252,9 @@ else if (NumberOfTheMonth == 12) {
 
 18. Crea un bloque de código que tome de referencia un número del 1 al 7. Utiliza una sentencia Switch para imprimir en consola el día de la semana correspondiente.*/
 
-let DayOfTheWeek = 5
+let dayOfTheWeek = 5
 
-switch (DayOfTheWeek){
+switch (dayOfTheWeek){
     case 1: console.log ("El dia es Lunes.");
     break;
     case 2: console.log ("El dia es Martes.");
@@ -259,9 +273,9 @@ switch (DayOfTheWeek){
 
 /*19. Crea un bloque de código que tome de referencia una letra correspondiente al género (‘H’, ‘M’, ‘X’…). Utiliza una sentencia switch para imprimir en consola el género correspondiente.*/
 
-let Gender = "M"
+let gender = "M"
 
-switch(Gender){
+switch(gender){
     case "X": console.log ("Es no Binario.")
     break;
     case "F": console.log ("Es mujer.")
@@ -271,9 +285,9 @@ switch(Gender){
 
 /*20. Crea un bloque de código que reciba un número del 1 al 10. Utiliza switch para imprimir en consola ‘Uno’, ‘Dos’, ‘Tres’, o ‘Mayor a 3’, según corresponda.*/
 
-let Number1to10= 1
+let number1to10= 1
 
-switch(Number1to10){
+switch(number1to10){
     case 1: console.log ("El numero es uno.");
     break;
     case 2: console.log ("El numero es dos.");
@@ -291,9 +305,9 @@ switch(Number1to10){
 
 /*21. Crea un bloque de código que tome de referencia una letra. Utiliza switch para imprimir en consola si es una vocal, una consonante, o un caracter especial.*/
 
-let LetterSimbol= "A"
+let letterSimbol= "A"
 
-switch (LetterSimbol){
+switch (letterSimbol){
     case "A":
     case "E":
     case "I":
@@ -330,9 +344,9 @@ switch (LetterSimbol){
 
 /*22. Crea un bloque de código que tome de referencia un número del 1 al 4. Utiliza switch para imprimir en consola la estación del año correspondiente.*/
 
-let Season = 1
+let season = 1
 
-switch(Season){
+switch(season){
     case 1: console.log ("Llego el verano.");
     break;
     case 2: console.log ("Llego el otoño.");
@@ -347,6 +361,23 @@ switch(Season){
 
 23. Crea un bloque de código que tome de referencia una variable ‘edad’. Utiliza el operador ternario para imprimir en consola si es o no mayor de edad.*/
 
-let MajorityAge= 16
+let majorityAge= 16
 
-console.log (MajorityAge >= 18 ? "Es mayor de edad" : "Es menor de edad")
+if (majorityAge >= 18) {
+    // Bloque donde la condicion es true
+    console.log("Es mayor de edad")
+} else {
+    // Bloque donde la condicion es false
+    console.log("Es menor de edad")
+}
+
+// let message = 
+// let message = majorityAge >= 18 ? "Es mayor de edad" : "Es menor de edad"
+condicion ? "condicion es true" : "condicion es false"
+console.log(majorityAge >= 18 ? "Bloque donde la condicion es true" : "Bloque donde la condicion es false")
+
+/*24. Crea un bloque de código que tome de referencia un número. Utiliza el operador ternario para determinar si es par o impar y muestra el resultado en consola.*/
+
+let parNumber= 10
+
+console.log (parNumber % 2 ? "El numero es par" : "El numero es impar")
