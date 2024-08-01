@@ -459,3 +459,563 @@ let message6 =
     ? "El numero ingresado es multiplo de 5"
     : "el numero ingresado no es multiplo ni de 2 ni de 3 ni de 5.";
 console.log(message6);
+
+/*30. Crea un bloque de codigo que reciba un numero del 1 al 1000. Utiliza el tipo de condicional que prefieras para imprimir en consola si el numero es par o impar, si es divisible por 2, por 3 o por 5, y si es mayor o menor a 50.z*/
+
+let number1to1000 = 33;
+
+if (
+  number1to1000 >= 50 &&
+  number1to1000 % 2 == 0 &&
+  number1to1000 % 3 == 0 &&
+  number1to1000 % 5 == 0
+) {
+  console.log(
+    number1to1000 +
+      " es mayor a 50. Es multiplo de 2, 3 y 5, al ser multiplo de dos sabemos que es par."
+  );
+} else if (
+  number1to1000 <= 50 &&
+  number1to1000 % 2 == 0 &&
+  number1to1000 % 3 == 0 &&
+  number1to1000 % 5 == 0
+) {
+  console.log(
+    number1to1000 +
+      " es menor a 50. Es multiplo de 2, 3 y 5, al ser multiplo de dos sabemos que es par."
+  );
+} else if (
+  number1to1000 >= 50 &&
+  number1to1000 % 2 == 0 &&
+  number1to1000 % 3 == 0
+) {
+  console.log(
+    number1to1000 +
+      " es mayor a 50. Es multiplo de 2 y 3. Al ser multiplo de dos sabemos que es par."
+  );
+} else if (
+  number1to1000 <= 50 &&
+  number1to1000 % 2 == 0 &&
+  number1to1000 % 3 == 0
+) {
+  console.log(
+    number1to1000 +
+      " es menor a 50. Es multiplo de 2 y 3. Al ser multiplo de dos sabemos que es par."
+  );
+} else if (
+  number1to1000 >= 50 &&
+  number1to1000 % 2 == 0 &&
+  number1to1000 % 5 == 0
+) {
+  console.log(
+    number1to1000 +
+      " es mayor a 50. Es multiplo de 2 y 5.  Al ser multiplo de dos sabemos que es par."
+  );
+} else if (
+  number1to1000 <= 50 &&
+  number1to1000 % 2 == 0 &&
+  number1to1000 % 5 == 0
+) {
+  console.log(
+    number1to1000 +
+      " es menor a 50. Es multiplo de 2 y 5. Al ser multiplo de dos sabemos que es par."
+  );
+} else if (
+  number1to1000 >= 50 &&
+  number1to1000 % 3 == 0 &&
+  number1to1000 % 5 == 0 &&
+  number1to1000 % 2 == 0
+) {
+  console.log(
+    number1to1000 +
+      " es mayor a 50. Es multiplo de 3 y 5. Cuando se divide por dos da cero entonces es par."
+  );
+} else if (
+  number1to1000 <= 50 &&
+  number1to1000 % 3 == 0 &&
+  number1to1000 % 5 == 0 &&
+  number1to1000 % 2 == 0
+) {
+  console.log(
+    number1to1000 +
+      " es menor a 50. Es multiplo de 3 y 5. Cuando se divide por dos no cero entonces es par."
+  );
+} else if (
+  number1to1000 >= 50 &&
+  number1to1000 % 3 == 0 &&
+  number1to1000 % 5 == 0 &&
+  number1to1000 % 2 !== 0
+) {
+  console.log(
+    number1to1000 +
+      " es mayor a 50. Es multiplo de 3 y 5. Cuando se divide por dos es distinto a cero entonces es impar."
+  );
+} else if (
+  number1to1000 <= 50 &&
+  number1to1000 % 3 == 0 &&
+  number1to1000 % 5 == 0 &&
+  number1to1000 % 2 !== 0
+) {
+  console.log(
+    number1to1000 +
+      " es menor a 50. Es multiplo de 3 y 5. Cuando se divide por dos es distinto a cero entonces es impar."
+  );
+} else if (number1to1000 <= 50 && number1to1000 % 2 == 0) {
+  console.log(
+    number1to1000 +
+      " es menor a 50. Es multiplo de 2, al ser multiplo de dos sabemos que es par."
+  );
+} else if (number1to1000 >= 50 && number1to1000 % 2 == 0) {
+  console.log(
+    number1to1000 +
+      " es mayor a 50. Es multiplo de 2, al ser multiplo de dos sabemos que es par."
+  );
+} else if (
+  number1to1000 <= 50 &&
+  number1to1000 % 3 == 0 &&
+  number1to1000 % 2 !== 0
+) {
+  console.log(
+    number1to1000 +
+      " es menor a 50. Es multiplo de 3. Cuando se divide por dos es distinto a cero entonces es impar."
+  );
+} else if (
+  number1to1000 >= 50 &&
+  number1to1000 % 3 == 0 &&
+  number1to1000 % 2 !== 0
+) {
+  console.log(
+    number1to1000 +
+      " es mayor a 50. Es multiplo de 3. Cuando se divide por dos es distinto a cero entonces es impar."
+  );
+} else if (
+  number1to1000 <= 50 &&
+  number1to1000 % 5 == 0 &&
+  number1to1000 % 2 !== 0
+) {
+  console.log(
+    number1to1000 +
+      " es menor a 50. Es multiplo de 5. Cuando se divide por dos es distinto a cero entonces es impar."
+  );
+} else if (
+  number1to1000 >= 50 &&
+  number1to1000 % 5 == 0 &&
+  number1to1000 % 2 !== 0
+) {
+  console.log(
+    number1to1000 +
+      " es mayor a 50. Es multiplo de 5. Cuando se divide por dos es distinto a cero entonces es impar."
+  );
+}
+
+/*31. Desarrolla 10 nuevas situaciones en donde requieras de utilizar condicionales para su resolucion.*/
+
+/*Situacion 1 Rutina del dia libre del montruo (yo)*/
+
+let hourOfTheDay = 21;
+
+if (hourOfTheDay >= 0 && hourOfTheDay <= 10) {
+  console.log("DEJA DORMIR AL MONTRUO (YO) SON LAS " + hourOfTheDay + ".");
+} else if (hourOfTheDay >= 11 && hourOfTheDay <= 13) {
+  console.log(
+    "Alimenta al monstruo (yo) ya son las " +
+      hourOfTheDay +
+      " se va a morir de hambre."
+  );
+} else if (hourOfTheDay >= 14 && hourOfTheDay <= 20) {
+  console.log(
+    "Son las " +
+      hourOfTheDay +
+      " el monstruo (yo) tiene que hacer algo de su vida, ya sea tarea o jugar."
+  );
+} else if (hourOfTheDay >= 21 && hourOfTheDay <= 22) {
+  console.log(
+    "Ya son las " +
+      hourOfTheDay +
+      ", el monstruo (yo) se necesita realimentar o se pondra de mal humor."
+  );
+} else if (hourOfTheDay >= 23 && hourOfTheDay <= 24) {
+  console.log(
+    "Como son las " + hourOfTheDay + ", el monstruo (yo) ya se va a dormir."
+  );
+}
+
+/*Situacion 2  Como identificar si el montruo estuvo de malhumor. /1 para no - 0 para si/ */
+
+let goodDay = 0;
+let sleepWell = 0;
+let alreadyAte = 0;
+
+if (goodDay === 1 && sleepWell === 1 && alreadyAte === 1) {
+  console.log("El montruo (yo) se descontrolo.");
+} else if (goodDay === 1 && sleepWell === 1 && alreadyAte === 0) {
+  console.log("El montruo (yo) se esta a punto de descontrolar.");
+} else if (goodDay === 1 && sleepWell === 0 && alreadyAte === 1) {
+  console.log("El montruo (yo) se esta a punto de descontrolar.");
+} else if (goodDay === 0 && sleepWell === 1 && alreadyAte === 1) {
+  console.log("El montruo (yo) se esta a punto de descontrolar.");
+} else if (goodDay === 0 && sleepWell === 0 && alreadyAte === 1) {
+  console.log("El montruo (yo) esta un poco de mal humor.");
+} else if (goodDay === 0 && sleepWell === 1 && alreadyAte === 0) {
+  console.log("El montruo (yo) esta un poco de mal humor.");
+} else if (goodDay === 1 && sleepWell === 0 && alreadyAte === 0) {
+  console.log("El montruo (yo) esta un poco de mal humor.");
+} else if (goodDay === 0 && sleepWell === 0 && alreadyAte === 0) {
+  console.log("El montruo (yo) hoy esta pacifico.");
+}
+
+/*Situacion 3 llueve, que hace el monstruo (yo)?*/
+
+let itsARainyDay = "si";
+
+if (itsARainyDay === "si") {
+  console.log("Como hoy llueve el monstruo (yo) llevara paragua.");
+} else if ((itsARainyDay = "no")) {
+  console.log("Como hoy no llueve el monstruo (yo) no necesita paragua.");
+}
+
+/* Situacion 4 que estacion es segun el mes.*/
+
+let month = 12;
+
+switch (month) {
+  case 12:
+  case 1:
+  case 2:
+    console.log(
+      "Es invierno y el monstruo (yo) no quiere salir de su cueva (cama)."
+    );
+    break;
+  case 3:
+  case 4:
+  case 5:
+    console.log(
+      "Es primavera, malditos platanos (arboles) son el enemigo natural del monstruo (yo)."
+    );
+    break;
+  case 6:
+  case 7:
+  case 8:
+    console.log("Es verano y el pobre monstruo (yo) se incinera.");
+    break;
+  case 9:
+  case 10:
+  case 11:
+    console.log("llegamos al otoÃ±o y el montruo(yo) esta en paz");
+    break;
+  default:
+    console.log("Mes invÃ¡lido, el montruo (yo) duda de tu inteligencia");
+}
+
+/*Situacion 5 el monstruo (yo) trabaja en rappi*/
+
+let stateDelivery = "preparando pedido";
+
+switch (stateDelivery) {
+  case "yendo al local":
+    console.log("El montruo (yo) esta yendo al local del pedido.");
+    break;
+  case "llegada al local":
+    console.log("El montruo (yo) llego al local.");
+    break;
+  case "preparando pedido":
+    console.log(
+      "No es culpa del montruo (yo) que el pedido se siga preparando."
+    );
+    break;
+  case "el pedido ya esta listo":
+    console.log("el pedido ya esta listo, pero el montruo (yo) no.");
+    break;
+  case "en camino":
+    console.log("el montruo (yo) se aproxima a tu casa.");
+    break;
+  case "entregado":
+    console.log("el montruo (yo) entrego el pedido. Se merece 5 estrellas.");
+    break;
+  default:
+    console.log("El montruo (yo) descansa.");
+}
+
+/*Situacion 6 el monstruo (yo) se tiene que tomar un colectivo /1 para si - 0 para no/*/
+
+let distance = -90;
+let dayOfTheWeek1 = 0;
+let socialRate = 0;
+let subeSinNominalizar = 1;
+
+if (dayOfTheWeek1 == 1) {
+  console.log(
+    "Monstruo (rata), se pone feliz por tener secundario, solo tendra que pagar $0,50."
+  );
+} else if (
+  distance > 0 &&
+  distance <= 3 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 0 &&
+  subeSinNominalizar == 1
+) {
+  console.log(
+    "El monstruo (yo) le agarra un infarto, por no nominalizar la sube tendra que pagar $429."
+  );
+} else if (
+  distance > 0 &&
+  distance <= 3 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 0 &&
+  subeSinNominalizar == 0
+) {
+  console.log(
+    "El monstruo (yo), aunque no le agrada tanto tendra que pagar $270."
+  );
+} else if (
+  distance > 0 &&
+  distance <= 3 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 1 &&
+  subeSinNominalizar == 0
+) {
+  console.log(
+    "El monstruo (yo) como tiene tarifa social tendra que pagar $121. "
+  );
+} else if (
+  distance > 3 &&
+  distance <= 6 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 0 &&
+  subeSinNominalizar == 1
+) {
+  console.log(
+    "El monstruo (yo) le agarra un infarto, por no nominalizar la sube tendra que pagar $478."
+  );
+} else if (
+  distance > 3 &&
+  distance <= 6 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 0 &&
+  subeSinNominalizar == 0
+) {
+  console.log(
+    "El monstruo (yo), aunque no le agrada tanto tendra que pagar $300."
+  );
+} else if (
+  distance > 3 &&
+  distance <= 6 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 1 &&
+  subeSinNominalizar == 0
+) {
+  console.log(
+    "El monstruo (yo) como tiene tarifa social tendra que pagar $135. "
+  );
+} else if (
+  distance > 6 &&
+  distance <= 12 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 0 &&
+  subeSinNominalizar == 1
+) {
+  console.log(
+    "El monstruo (yo) le agarra un infarto, por no nominalizar la sube tendra que pagar $515."
+  );
+} else if (
+  distance > 6 &&
+  distance <= 12 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 0 &&
+  subeSinNominalizar == 0
+) {
+  console.log(
+    "El monstruo (yo), aunque no le agrada tanto tendra que pagar $323."
+  );
+} else if (
+  distance > 6 &&
+  distance <= 12 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 1 &&
+  subeSinNominalizar == 0
+) {
+  console.log(
+    "El monstruo (yo) como tiene tarifa social tendra que pagar $145. "
+  );
+} else if (
+  distance > 12 &&
+  distance < 27 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 0 &&
+  subeSinNominalizar == 1
+) {
+  console.log(
+    "El monstruo (yo) se desvanece, por no nominalizar la sube tendra que pagar $551."
+  );
+} else if (
+  distance > 12 &&
+  distance < 27 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 0 &&
+  subeSinNominalizar == 0
+) {
+  console.log("El monstruo (yo), aunque no le agrada tendra que pagar $347.");
+} else if (
+  distance > 12 &&
+  distance < 27 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 1 &&
+  subeSinNominalizar == 0
+) {
+  console.log(
+    "El monstruo (yo) como tiene tarifa social tendra que pagar $156. "
+  );
+} else if (
+  distance >= 27 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 0 &&
+  subeSinNominalizar == 1
+) {
+  console.log(
+    "El monstruo (yo) se desvanece, por no nominalizar la sube tendra que pagar $588."
+  );
+} else if (
+  distance >= 27 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 0 &&
+  subeSinNominalizar == 0
+) {
+  console.log("El monstruo (yo), aunque no le agrada tendra que pagar $370.");
+} else if (
+  distance >= 27 &&
+  dayOfTheWeek1 == 0 &&
+  socialRate == 1 &&
+  subeSinNominalizar == 0
+) {
+  console.log(
+    "El monstruo (yo) como tiene tarifa social tendra que pagar $166. "
+  );
+} else {
+  console.log("El monstruo (yo) no puede ir en negativo.");
+}
+
+/*situacion 7 el montruo (yo) tiene que ir a buscar al chucky (hermano menor) al colegio  /ocupado - ocupada - libre*/
+
+let mom = "ocupada";
+let dad = "ocupado";
+
+let whosGoingForChucky =
+  mom == "ocupada" && dad == "ocupado"
+    ? "El monstruo (yo) debera salir de su cueva (cama) y ir por Chucky (hermano menor)."
+    : mom == "libre" && dad == "ocupado"
+    ? "Mama va a ir a buscar a Chucky (hermano menor), papa esta ocupado. El monstruo (yo) se queda en su cueva (cama)."
+    : mom == "ocupada" && dad == "libre"
+    ? "Papa va a ir a buscar a Chucky (hermano menor), mama esta ocupada. El monstruo (yo) se queda en su cueva (cama)."
+    : mom == "libre" && dad == "libre"
+    ? "Mama o papa pueden ir a buscar a Chucky (hermano menor), los dos estan libres. El monstruo se queda en su cueva (cama)."
+    : "Chucky dormira en el colegio esta noche. Nadie mas puede ir a buscarlo.";
+
+console.log(whosGoingForChucky);
+
+/*Situacion 8 el monstruo tiene que lavar la ropa /si - no/*/
+
+let mountainDirtyLaundry = "si";
+let dirtyWhiteClothes = "si";
+let dirtyColoredClothes = "si";
+let dirtyBlackClothes = "si";
+
+if (mountainDirtyLaundry == "no") {
+  console.log(
+    "Impresionante que no haya ropa sucia el monstruo (yo) cree que es un milagro."
+  );
+} else if (
+  (mountainDirtyLaundry =
+    "si" &&
+    dirtyBlackClothes == "si" &&
+    dirtyWhiteClothes == "si" &&
+    dirtyColoredClothes == "si")
+) {
+  console.log(
+    "Hay un monton de ropa sucia, la cual hay que divir por colores, blanca, de color y negra.  Es tanta que el monstruo (yo) no terminara hoy."
+  );
+} else if (
+  (mountainDirtyLaundry =
+    "si" &&
+    dirtyBlackClothes == "si" &&
+    dirtyWhiteClothes == "si" &&
+    dirtyColoredClothes == "no")
+) {
+  console.log(
+    "Hay una cantidad interesante de ropa sucia, la cual hay que divir por colores, blanca, y negra.  Es bastate el monstruo (yo) lavara hasta la noche."
+  );
+} else if (
+  (mountainDirtyLaundry =
+    "si" &&
+    dirtyBlackClothes == "si" &&
+    dirtyColoredClothes == "si" &&
+    dirtyWhiteClothes == "si")
+) {
+  console.log(
+    "Hay una cantidad interesante de ropa sucia, la cual hay que divir por colores, de color, y negra.  Es bastate el monstruo (yo) lavara hasta la noche."
+  );
+} else if (
+  (mountainDirtyLaundry =
+    "si" &&
+    dirtyWhiteClothes == "si" &&
+    dirtyColoredClothes == "si" &&
+    dirtyBlackClothes == "si")
+) {
+  console.log(
+    "Hay una cantidad interesante de ropa sucia, la cual hay que divir por colores, de color, y blanca.  Es bastate el monstruo (yo) lavara hasta la noche."
+  );
+} else if (
+  (mountainDirtyLaundry =
+    "si" &&
+    dirtyBlackClothes == "si" &&
+    dirtyWhiteClothes == "no" &&
+    dirtyColoredClothes == "no")
+) {
+  console.log(
+    "Hay ropa sucia negra.  Es  sorprendente que el monstruo (yo) no este dejando que se acumule."
+  );
+} else if (
+  (mountainDirtyLaundry =
+    "si" &&
+    dirtyBlackClothes == "no" &&
+    dirtyColoredClothes == "no" &&
+    dirtyWhiteClothes == "si")
+) {
+  console.log(
+    "Hay ropa sucia blanca.  Es  sorprendente que el monstruo (yo) no este dejando que se acumule."
+  );
+} else if (
+  (mountainDirtyLaundry =
+    "si" &&
+    dirtyWhiteClothes == "no" &&
+    dirtyColoredClothes == "si" &&
+    dirtyBlackClothes == "no")
+) {
+  console.log(
+    "Hay ropa sucia de color.  Es  sorprendente que el monstruo (yo) no este dejando que se acumule."
+  );
+} else {
+  ("El monstruo (yo) se pregunta que clase de ropa tenes.");
+}
+
+/*situacion 9 el monstruo (yo) tiene que cocinar*/
+
+let thereIsFoodMade = "no";
+let iHaveHungry = "si";
+
+let iHaveToCook =
+  thereIsFoodMade == "no" && iHaveHungry == "si"
+    ? "El monstruo (yo) tendra que cocinar"
+    : thereIsFoodMade == "si" && iHaveHungry == "si"
+    ? "El monstruo (yo) no tendra que cocinar. Ya hay comida"
+    : iHaveHungry == "no"
+    ? "El monstruo (yo) no tiene que cocinar porque no tiene hambre"
+    : "No se que mas poner";
+
+console.log(iHaveToCook);
+
+/*situacion 10 ya me quede sin imaginacion perdon D:, elegir un tema claro o oscuro*/
+
+let selectedTopics = "oscuro";
+
+let message7 = selectedTopics === "oscuro" ? "tema-oscuro" : "tema-claro";
+console.log(message7);
